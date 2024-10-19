@@ -58,18 +58,19 @@
 <section class="container mt-5">
     <div class="row">
       <div class="col-md-4">
-          <img src="Jane Griffin.jpg" alt="Jane Profile Picture" class="img-fluid">
+          <img width="200" height="350" src="Jane Griffin.jpg" alt="Jane Profile Picture" class="img-fluid">
           <p> <strong>Jane Griffin</strong> - Bacon ipsum dolor amet landjaeger t-bone swine, pig chislic burgdoggen tenderloin cupim pork prosciutto sausage pork belly bresaola venison turkey. Alcatra salami brisket ball tip chislic pork chop. Beef frankfurter kevin sausage</p>
       </div>
         <div class="col-md-4">
-          <img src="Josh Allen.jpg" alt="Josh Profile Picture" class="img-fluid">
+          <img width="200" height="350" src="Josh Allen.jpg" alt="Josh Profile Picture" class="img-fluid">
           <p> <strong>Josh Allen</strong> - Bacon ipsum dolor amet landjaeger t-bone swine, pig chislic burgdoggen tenderloin cupim pork prosciutto sausage pork belly bresaola venison turkey. Alcatra salami brisket ball tip chislic pork chop. Beef frankfurter kevin sausage</p>
       </div>
         <div class="col-md-4">
-          <img src="Timmy Turner.jpg" alt="Timmy Profile Picture" class="img-fluid">
+          <img width="200" height="350" src="Timmy Turner.jpg" alt="Timmy Profile Picture" class="img-fluid">
           <p> <strong>Timmy Turner</strong> - Bacon ipsum dolor amet landjaeger t-bone swine, pig chislic burgdoggen tenderloin cupim pork prosciutto sausage pork belly bresaola venison turkey. Alcatra salami brisket ball tip chislic pork chop. Beef frankfurter kevin sausage</p>
       </div>
     </div>
     </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
