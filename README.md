@@ -3,14 +3,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 
-  <title>Caffeinated Climbers</title>   
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
   <header class="bg-dark   
  text-light p-5 text-center">
-    <h1>About Us</h1>
+    <h1>Caffeinated Climbers</h1>
   </header>
 
   <section class="container mt-5">
