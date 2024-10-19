@@ -16,7 +16,7 @@
   <section class="container mt-5">
     <div class="row">
       <div class="col-md-6">
-        <img src="team.jpg" alt="Team Image" class="img-fluid">
+        <img src="Rock Climbing Picture.jpg" alt="Team Image" class="img-fluid">
       </div>
       <div class="col-md-6">
         <h2>Our Story</h2>
