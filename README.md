@@ -12,7 +12,7 @@
     <h1>Welcome to Our Website</h1>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#">Equipment Rental</a></li>
         <li><a href="#">Merchandise</a></li>
         <li><a href="#">Contact Info</a></li>
       </ul>
