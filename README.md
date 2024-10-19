@@ -3,25 +3,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <title>Caffeinated Climbers</title>   
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="bg-dark   
- text-light p-5 text-center">
-    <h1>Caffeinated Climbers</h1>
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Merchandise</a></li>
+        <li><a href="#">Contact Info</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="Rock Climbing Picture.jpg" alt="Team Image" class="img-fluid">
+  <main>
+    <section class="hero">
+      <img src="hero-image.jpg" alt="Hero Image">
+      <div class="hero-text">
+        <h2>Our Adventures</h2>
+        <p>Our goal is to take rock climbing to the next level while providing you with a fun and exciting experience when on the cliffs.</p>
+        <a href="#" class="btn">Learn More Here!</a>
       </div>
-      <div class="col-md-6">
-        <h2>Our Story</h2>
-        <p>Our story begins...</p>
-      </div>
-    </div>
     </section>
-
+  </main>
 </body>
 </html>
