@@ -21,7 +21,7 @@
 
   <main>
     <section class="hero">
-      <img src="hero-image.jpg" alt="Hero Image">
+      <img src="Rock Climbing Picture 2.jpg" alt="Rock Climbing Picture 2">
       <div class="hero-text">
         <h2>Our Adventures</h2>
         <p>Our goal is to take rock climbing to the next level while providing you with a fun and exciting experience when on the cliffs.</p>
