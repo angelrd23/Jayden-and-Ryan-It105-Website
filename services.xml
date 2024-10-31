@@ -1,1 +1,17 @@
-
+<SERVICES>
+    <SERVICE>
+        <SNAME>Beginner Climb</SNAME>
+        <SCOMP>Two Hour Climb used for people beginning their rock climb experiences.</SCOMP>
+        <SCATEGORY>EASY AND FUN</SCATEGORY>
+    </SERVICE>
+   <SERVICE>
+        <SNAME>Intermediate Climb</SNAME>
+        <SCOMP>4 Hour Climb that consists of a harder track.</SCOMP>
+        <SCATEGORY>CHALLENGING</SCATEGORY>
+    </SERVICE>
+   <SERVICE>
+        <SNAME>Advanced Climb</SNAME>
+        <SCOMP>8 Hour Climb that is used for experienced rock climbers to test their skills.</SCOMP>
+        <SCATEGORY>EXTREMELY DIFFICULT</SCATEGORY>
+    </SERVICE>
+</SERVICES>
