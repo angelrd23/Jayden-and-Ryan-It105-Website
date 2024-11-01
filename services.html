@@ -34,7 +34,7 @@ function myFunction(xml) {
 		divcols += '<div class="row">';
 		divcols += '<div class="col-md-4">' + x[i].getElementsByTagName("SNAME")[0].childNodes[0].nodeValue + '</div>';
 		divcols += '<div class="col-md-4">' + x[i].getElementsByTagName("SCOMP")[0].childNodes[0].nodeValue + '</div>';
-        divcols += '<div class="col-md-4">' + x[i].getElementsByTagName("SCATEGORY")[0].childNodes[0].nodeValue + '</div>';
+                divcols += '<div class="col-md-4">' + x[i].getElementsByTagName("SCATEGORY")[0].childNodes[0].nodeValue + '</div>';
 		divcols += '</div>';
 	}
 	document.getElementById("mycontainer").innerHTML = divcols;
