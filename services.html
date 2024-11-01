@@ -24,9 +24,9 @@ function myFunction(xml) {
 	var i;
 	var xmlDoc = xml.responseXML;
 	var divcols='<div class="row">';
-	divcols += '   <div class="col-md-4"><b>Beginner Climb</b></div>';
-	divcols += '   <div class="col-md-4"><b>Intermediate Climb</b></div>';
-	divcols += '   <div class="col-md-4"><b>Advanced Climb</b></div>';
+	divcols += '   <div class="col-md-4"><b>Type of Climb</b></div>';
+	divcols += '   <div class="col-md-4"><b>Description of Climb</b></div>';
+	divcols += '   <div class="col-md-4"><b>Difficulty of Climb</b></div>';
 	divcols += '</div>';
 
 	var x = xmlDoc.getElementsByTagName("SERVICE");
