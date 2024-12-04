@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th, td {
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Climbing Gear List</h1>
+    <table id="gearTable">
+        <thead>
+            <tr>
+                <th>Manufacturer</th>
+                <th>Gear Name</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+// JSON data
+const gearData = [
+    {"gear_manu":"Petzl","gear_name":"Omni Locking Carabiner, Screw-Lock","gear_cost":"23.95"},
+    {"gear_manu":"Petzl","gear_name":"AmD Screw Lock Carabiner","gear_cost":"18.95"},
+    {"gear_manu":"Petzl","gear_name":"Attache","gear_cost":"19.00"},
+    {"gear_manu":"Petzl","gear_name":"SmD Twist-Lock Autolock Carabiner","gear_cost":"22.95"},
+    {"gear_manu":"Black Diamond","gear_name":"RockLock TwistLock - Gray","gear_cost":"22.95"},
+    {"gear_manu":"Black Diamond","gear_name":"Hotforge Screwgate 3 Pack","gear_cost":"34.95"},
+    {"gear_manu":"Black Diamond","gear_name":"Hotforge Screwgate","gear_cost":"12.95"},
+    {"gear_manu":"Black Diamond","gear_name":"Camalot C4 2nds - Size .75","gear_cost":"63.96"}
+];
+
+// Function to populate the table
+function populateTable() {
+    const tableBody = document.getElementById('gearTable').getElementsByTagName('tbody')[0];
+
+    gearData.forEach(gear => {
+        const row = document.createElement('tr');
+        
+        // Manufacturer column
+        const manuCell = document.createElement('td');
+        manuCell.textContent = gear.gear_manu;
+        row.appendChild(manuCell);
+
+        // Gear Name column
+        const nameCell = document.createElement('td');
+        nameCell.textContent = gear.gear_name;
+        row.appendChild(nameCell);
+
+        // Cost column
+        const costCell = document.createElement('td');
+        costCell.textContent = `$${gear.gear_cost}`;
+        row.appendChild(costCell);
+
+        // Append the row to the table body
+        tableBody.appendChild(row);
+    });
+}
+
+// Call the function to populate the table when the page loads
+window.onload = populateTable;
+</script>
+    <p>Payments are excepted through Venmo, PayPal, and Zelle. </p>
+
+</body>
+</html>
